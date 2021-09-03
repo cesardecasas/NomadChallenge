@@ -38,4 +38,6 @@ Before deployment is require to migrate database from SQLite3 to PostgreSQL to w
 * pg(Postgres) gem not working for Ruby < 3.0. Used SQLite3 instead, in the until it is safe to use pg gem.
 > Alternatively, you can downgrade to Ruby 2.4 in order to use the pg gem and PostgreSQL as Database.
 
-* Uncompatibilities, with npm. Used yarn instead.
+* Uncompatibilities with npm. Used yarn instead.
+
+* Uncompatibilities with Ruby enviroment in my pc. I was unable to test conection between Backend and Front-end.
