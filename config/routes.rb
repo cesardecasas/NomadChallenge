@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :appointments
+  resources :availabilities
+  resources :days
+  resources :coaches
   root 'pages#index'
 
   match '*path', to: 'pages#index', via: :all 
